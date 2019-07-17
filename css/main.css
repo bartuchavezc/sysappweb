@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC';
+}
+
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  background: #fff;
+}
+
+header{
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  position: fixed;
+  z-index: 2000;
+}
+
+header .container-title{
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .container-title .container-logo{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+header .container-title .container-logo img{
+  width: 100%;
+  height: 100%;
+}
+
+header .nav-menu{
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .nav-menu .menu a{
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+header .nav-menu .menu a:hover{
+  border-bottom: 1px solid #000;
+}
+
+.nav-btn{
+  display: none;
+}
+
+/* section main */
+.main{
+  width: 100%;
+  padding-top: 110px;
+}
+
+.main .background-image{
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  background-image: url('../img/imagen3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .background-image .text {
+  width: 40%;
+  padding: 300px 60px;
+}
+
+.main .background-image .text h2{
+  color: #fff;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.contact-form{
+  width: 30%;
+  background: #fff;
+  margin-left: 64%;
+  margin-top: -400px;
+  position: absolute;
+  z-index: 100;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.6);
+}
+
+.contact-form .form{
+  padding: 20px;
+}
+
+.contact-form .form .title-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .form .title-form h3{
+  font-size: 30px;
+}
+
+.contact-form form{
+  padding: 20px;
+}
+
+.contact-form .input-values{
+  width: 100%;
+  padding: 20px 2px;
+}
+
+.contact-form .input-values input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contact-form .input-send{
+  width: 100%;
+  padding: 20px 2px;
+}
+
+.contact-form p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #f80063;
+}
+
+.contact-form .input-send div{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  border-radius: 2px;
+  color: #fff;
+  background: #249FCD;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-form .input-send div:hover{
+  background: #027dab;
+}
+
+.contact-form .input-values textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.something{
+  padding: 120px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ededed;
+}
+
+.something div{
+  padding: 10px 20px;
+}
+
+.something div h3{
+  font-size: 40px;
+  color: #999;
+}
+
+.social{
+  padding: 20px;
+  background: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social div{
+  padding: 20px 80px;
+}
+
+.social i{
+  font-size: 30px;
+  color: #272727;
+}
+
+.about-us{
+  padding: 40px;
+  margin-top: -740px;
+  margin-left: 100%;
+  background: #fff;
+  opacity: 0;
+}
+
+.about-us .title{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .title h2{
+  font-size: 60px;
+}
+
+.about-us .text{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us .text p{
+  font-size: 30px;
+  color: #272727;
+  text-align: center;
+  padding: 40px;
+}
+
+.footer{
+  padding: 80px;
+  background: #272727;
+}
+
+.jobs{
+  padding: 40px;
+  margin-top: -740px;
+  margin-left: 100%;
+  background: #fff;
+  opacity: 0;
+}
+
+.jobs .title{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs .title h2{
+  font-size: 60px;
+}
+
+.jobs .text{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs .text p{
+  font-size: 30px;
+  color: #272727;
+  text-align: center;
+  padding: 40px;
+}
+
+.galery{
+  padding: ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.galery .image{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.galery .image .img-container{
+  width: 100%;
+  padding: 40px;
+}
+
+.galery .image .img-container img{
+  width: 100px;
+  opacity: .8;
+}
+
+.galery .image .img-container img:hover{
+  opacity: 1;
+}
+
+.line-indicator{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 75px;
+}
+
+.line-indicator .point{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.line-pointer-container{
+  padding: 0px 75px;
+}
+
+.line-pointer-container .line-pointer{
+  border: 1px dotted #aaa;
+  z-index: 1;
+  margin-top: -15px;
+}
+
+.grn{
+  background: #23cf8c;
+}
+
+.lblue{
+  background: #6bd0f5;
+}
+
+.violet{
+  background: #611b79;
+}
+
+.rose{
+  background: #de2c74;
+}
+
+.pointers-description{
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pointers-description .description{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.pointers-description .description .icon{
+  display: none;
+}
+
+.btn-none{
+  display: none;
+}
